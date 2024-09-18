@@ -1,10 +1,14 @@
 import './App.css';
-import HomePage from './pages/homePage/HomePage';
+import PricingPage from './pages/pricingPage/PricingPage';
+// import QuestionPage from './pages/questionPage/QuestionPage';
+// import HomePage from './pages/homePage/HomePage';
 
 function App() {
   return (
     <>
-      <HomePage />
+      {/* <HomePage /> */}
+      {/* <QuestionPage /> */}
+      <PricingPage />
     </>
   );
 }

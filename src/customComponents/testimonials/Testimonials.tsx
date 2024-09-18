@@ -1,3 +1,5 @@
+import testimonialImg from '../../assets/testimonial-image.svg';
+
 const Testimonials = () => {
   return (
     <div>
@@ -8,6 +10,16 @@ const Testimonials = () => {
         quantitative skills needed to pass the rigorous interviewing processes.
         Most recently, our users have landed jobs at top companies around the
         world.
+      </p>
+      <div className='w-full flex flex-row'>
+        <img
+          className='mx-auto w-4/5'
+          src={testimonialImg}
+          alt='testimonial image'
+        />
+      </div>
+      <p className='opacity-40 text-center text-[13px] md:text-sm leading-loose text-gray-500 mb-12 mt-4 px-[50px] md:px-[150px] lg:px-[200px]'>
+        QuantGuide is not affiliated with these firms
       </p>
     </div>
   );
