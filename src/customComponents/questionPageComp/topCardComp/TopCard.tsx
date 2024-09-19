@@ -7,12 +7,12 @@ import {
 
 const TopCard = ({ cardImg, cardTitle, cardDescription }: any) => {
   return (
-    <Card className='w-[80%] max-w-sm shadow-md flex items-center pl-[1%] ml-[1%]'>
+    <Card className='w-[90%] max-w-sm shadow-md flex items-center pl-[1%] ml-[1%]'>
       <div className='rounded w-20 h-20 overflow-hidden'>
         <img
           src={cardImg}
           alt='Quant Trader 75'
-          className='object-cover w-full h-full'
+          className='object-cover w-[100%] h-full'
         />
       </div>
       <CardHeader className='flex flex-col '>

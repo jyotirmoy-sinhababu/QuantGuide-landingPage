@@ -10,7 +10,7 @@ import { CiSearch } from 'react-icons/ci';
 
 const FirstCard = () => {
   return (
-    <Card className='p-2 w-[70%] rounded-xl bg-white text-black shadow-xl hover:shadow-2xl duration-500 flex flex-col ml-[2%]'>
+    <Card className='p-2 w-[80%] rounded-xl bg-white text-black shadow-xl hover:shadow-2xl duration-500 flex flex-col ml-[2%]'>
       <div className='flex flex-col duration-500 transition w-full'>
         <CardHeader className='flex flex-row items-center justify-between'>
           <CardTitle className=''>Companies</CardTitle>

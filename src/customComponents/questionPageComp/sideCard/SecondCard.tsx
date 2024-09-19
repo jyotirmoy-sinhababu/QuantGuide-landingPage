@@ -5,7 +5,7 @@ import { RxTriangleLeft, RxTriangleRight } from 'react-icons/rx';
 
 const SecondCard = () => {
   return (
-    <Card className='mt-[5%] w-[70%] p-0'>
+    <Card className='mt-[5%] w-[80%] p-0'>
       <CardHeader className='flex flex-row items-center gap-4'>
         <CardTitle className='text-[14px]'>Progress</CardTitle>
         <div className='p-1 px-1 xl:px-4 bg-[#f2f2f2] flex flex-row rounded-lg items-center gap-2'>

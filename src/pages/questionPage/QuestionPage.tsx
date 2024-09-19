@@ -6,6 +6,8 @@ import top50 from '../../assets/top50.svg';
 import coins from '../../assets/coins.svg';
 import FirstCard from '@/customComponents/questionPageComp/sideCard/FirstCard';
 import SecondCard from '@/customComponents/questionPageComp/sideCard/SecondCard';
+import TableCard from '@/customComponents/questionPageComp/tableCard/TableCard';
+import PricingFooter from '@/customComponents/pricingComp/PricingFooter';
 
 const QuestionPage = () => {
   return (
@@ -34,13 +36,16 @@ const QuestionPage = () => {
               cardDescription={'All the coin questions on the platform'}
             />
           </div>
-          <div></div>
+          <div className='md:pl-[4%] pl-0 mt-[2%]  mx-[2%] md:mx-0'>
+            <TableCard />
+          </div>
         </div>
         <div className=' flex-col lg:w-96 lg:mt-5 lg:mr-3 mb-4 hidden lg:flex items-end'>
           <FirstCard />
           <SecondCard />
         </div>
       </div>
+      <PricingFooter />
     </div>
   );
 };
